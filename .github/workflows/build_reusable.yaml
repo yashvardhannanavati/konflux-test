@@ -14,7 +14,7 @@ on:
         description: "Determine if image should be pushed into registry. By default image will be only built and tested locally."
         required: false
         type: boolean
-        default: false
+        default: true
 jobs:
   build_container_image:
     name: Build and check main image
